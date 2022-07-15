@@ -23,7 +23,7 @@ To use this module in your project do...
 
 ```js
 const path = require('path')
-const csv2json = require('rs-csv2json')
+const csv2json = require('rs-csv2json').default
 
 const inputPath = path.join(__dirname, `./input`) // set input path to csv files
 const outputPath = path.join(__dirname, `./output`) // set output path to destionation
