@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsteinmann/node-csv2json.git"
+    "url": "git+https://github.com/rsteinmann/rs-csv2json.git"
   },
   "author": "steinmann.raphael@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rsteinmann/node-csv2json/issues"
+    "url": "https://github.com/rsteinmann/rs-csv2json/issues"
   },
-  "homepage": "https://github.com/rsteinmann/node-csv2json#readme",
+  "homepage": "https://github.com/rsteinmann/rs-csv2json#readme",
   "dependencies": {
     "csvtojson": "^2.0.10"
   }
