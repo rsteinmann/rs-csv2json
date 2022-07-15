@@ -1,4 +1,4 @@
-const convertCsv2Json = require('./modules/convertCsv2Json')
+const convertCsv2Json = require('../lib/cjs').default
 const path = require('path')
 const inputPath = path.join(__dirname, `../input`)
 const outputPath = path.join(__dirname, `../output`)

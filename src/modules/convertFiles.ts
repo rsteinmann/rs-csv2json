@@ -1,25 +1,34 @@
-const csv = require('csvtojson')
-const writeJsonFile = require('./writeJsonFile')
+import csv from 'csvtojson'
+import { fileObjectType } from '..'
+import { writeJsonFile } from './writeJsonFile'
 
-const allowedSuffix = ['csv']
-const isAllowedSuffix = (suffix) => allowedSuffix.includes(suffix)
+const allowedSuffix: string[] = ['csv']
+const isAllowedSuffix = (suffix: string) => allowedSuffix.includes(suffix)
+
+export interface fileReportType {
+  name: string
+  suffix: string
+  path: string
+  rows: number
+  success: boolean
+}
 
 /**
  * Takes a list of csv-files and converts them to json.
  * 
  * @param {array} files - a list of file objects with name and path set
  * @param {string} outputPath - absolute path of destination directory
- * @returns {array}  - a list of report objects that contain feedback of operation
+ * @returns {array}   list of report objects that contain feedback of operation
  */
-module.exports = async function convertFiles(files, outputPath) {
-  return new Promise(async (resolve, reject) => {
+export const convertFiles = async (files: fileObjectType[], outputPath: string) => {
+  return new Promise<fileReportType[]>(async (resolve, reject) => {
     if (files.length < 1) {
       reject('No files converted!')
     }
-    let report = []
+    let report: fileReportType[] = []
     for (let i = 0; i < files.length; i++) {
       const { name, suffix, path } = files[i]
-      let fileReport = {
+      let fileReport: fileReportType = {
         name,
         suffix,
         path,
