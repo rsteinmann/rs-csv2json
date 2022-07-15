@@ -1,0 +1,4 @@
+account_type,booking_date,valuta_date,sender_or_recipient,iban,booking_type,description,category,amount,currency,co2_footprint_in_grams
+Hauptkonto,2021-08-03,2021-08-03,"PayPal (Europe) S.a.r.l. et Cie., S.C.A.",DE88500700100175526303,Gutschrift,Some Text here,Andere,"0,01",EUR,
+Hauptkonto,2021-08-07,2021-08-07,,DE28110101010000310001,Kartenzahlung,"Penny Bilderstoeck, Koeln",Lebensmittel,"-10,38",EUR,"8.906,04"
+Hauptkonto,2021-08-08,2021-08-08,,DE28110101010000310001,Kartenzahlung,"REWE Skowronnek oHG, Koeln",Lebensmittel,"-51,08",EUR,"43.826,64"

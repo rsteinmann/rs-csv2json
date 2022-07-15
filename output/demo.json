@@ -1,0 +1,41 @@
+[
+  {
+    "account_type": "Hauptkonto",
+    "booking_date": "2021-08-03",
+    "valuta_date": "2021-08-03",
+    "sender_or_recipient": "PayPal (Europe) S.a.r.l. et Cie., S.C.A.",
+    "iban": "DE88500700100175526303",
+    "booking_type": "Gutschrift",
+    "description": "Some Text here",
+    "category": "Andere",
+    "amount": "0,01",
+    "currency": "EUR",
+    "co2_footprint_in_grams": ""
+  },
+  {
+    "account_type": "Hauptkonto",
+    "booking_date": "2021-08-07",
+    "valuta_date": "2021-08-07",
+    "sender_or_recipient": "",
+    "iban": "DE28110101010000310001",
+    "booking_type": "Kartenzahlung",
+    "description": "Penny Bilderstoeck, Koeln",
+    "category": "Lebensmittel",
+    "amount": "-10,38",
+    "currency": "EUR",
+    "co2_footprint_in_grams": "8.906,04"
+  },
+  {
+    "account_type": "Hauptkonto",
+    "booking_date": "2021-08-08",
+    "valuta_date": "2021-08-08",
+    "sender_or_recipient": "",
+    "iban": "DE28110101010000310001",
+    "booking_type": "Kartenzahlung",
+    "description": "REWE Skowronnek oHG, Koeln",
+    "category": "Lebensmittel",
+    "amount": "-51,08",
+    "currency": "EUR",
+    "co2_footprint_in_grams": "43.826,64"
+  }
+]
