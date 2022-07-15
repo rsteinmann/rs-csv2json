@@ -1,6 +1,6 @@
 {
   "name": "rs-csv2json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts CSV files to JSON files",
   "main": "./src/index.js",
   "scripts": {
