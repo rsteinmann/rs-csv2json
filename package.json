@@ -1,5 +1,5 @@
 {
-  "name": "csv2json",
+  "name": "rs-csv2json",
   "version": "1.0.0",
   "description": "Converts CSV files to JSON files",
   "main": "./src/main.js",
